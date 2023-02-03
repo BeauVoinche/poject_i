@@ -1,0 +1,1234 @@
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+
+#mainpage2 {
+    background-color: #024D50;
+}
+#firstbox {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        color: #675807;
+        text-shadow: #32736F 1px 0 10px;
+}
+
+
+
+.shieldyes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 0;
+}
+
+#logincontainer {
+    background-color: rgb(4, 42, 43);
+    box-shadow: 0 4px 160px 0 rgba(0, 49, 50, 0.3), 0 6px 500px 0 rgba(0, 49, 50, 1);
+    z-index: 1;
+}
+
+.shieldback {
+    
+}
+
+#mainpage1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#mainpage1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    background-color: #810d00;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.img {
+    width: 382px;
+    height: 566px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.logimg {
+    width: 100px;
+    height: 100px;
+}
+
+
+#jarvisblock {
+    background-color: black;
+    color: #C3FCFF;
+    text-decoration-color: #479FC0;
+    font-size: 16pt;
+    width: 382px;
+    height: 566px;
+    padding: 35px;
+    margin-bottom: 20px;
+    border: solid 1px #247697;
+    border-radius: 10px;
+    margin-left: 15%;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform .4s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.3), 0 6px 200px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container1 {
+    width: 100%;
+    max-width: 800px;
+    max-height: 1000px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    position: relative;
+    width: 382px;
+    height: 566px;
+    margin-bottom: 20px;
+}
+
+#item-1:checked~.cards #song-30,
+#item-2:checked~.cards #song-1,
+#item-3:checked~.cards #song-2,
+#item-4:checked~.cards #song-3,
+#item-5:checked~.cards #song-4,
+#item-6:checked~.cards #song-5,
+#item-7:checked~.cards #song-6,
+#item-8:checked~.cards #song-7,
+#item-9:checked~.cards #song-8,
+#item-10:checked~.cards #song-9,
+#item-11:checked~.cards #song-10,
+#item-12:checked~.cards #song-11,
+#item-13:checked~.cards #song-12,
+#item-14:checked~.cards #song-13,
+#item-15:checked~.cards #song-14,
+#item-16:checked~.cards #song-15,
+#item-17:checked~.cards #song-16,
+#item-18:checked~.cards #song-17,
+#item-19:checked~.cards #song-18,
+#item-20:checked~.cards #song-19,
+#item-21:checked~.cards #song-20,
+#item-22:checked~.cards #song-21,
+#item-23:checked~.cards #song-22,
+#item-24:checked~.cards #song-23,
+#item-25:checked~.cards #song-24,
+#item-26:checked~.cards #song-25,
+#item-27:checked~.cards #song-26,
+#item-28:checked~.cards #song-27,
+#item-29:checked~.cards #song-28,
+#item-30:checked~.cards #song-29 {
+    transform: translatex(-40%) scale(.8);
+    opacity: .6;
+    z-index: 0;
+}
+
+
+#item-1:checked~.cards #song-29,
+#item-2:checked~.cards #song-30,
+#item-3:checked~.cards #song-1,
+#item-4:checked~.cards #song-2,
+#item-5:checked~.cards #song-3,
+#item-6:checked~.cards #song-4,
+#item-7:checked~.cards #song-5,
+#item-8:checked~.cards #song-6,
+#item-9:checked~.cards #song-7,
+#item-10:checked~.cards #song-8,
+#item-11:checked~.cards #song-9,
+#item-12:checked~.cards #song-10,
+#item-13:checked~.cards #song-11,
+#item-14:checked~.cards #song-12,
+#item-15:checked~.cards #song-13,
+#item-16:checked~.cards #song-14,
+#item-17:checked~.cards #song-15,
+#item-18:checked~.cards #song-16,
+#item-19:checked~.cards #song-17,
+#item-20:checked~.cards #song-18,
+#item-21:checked~.cards #song-19,
+#item-22:checked~.cards #song-20,
+#item-23:checked~.cards #song-21,
+#item-24:checked~.cards #song-22,
+#item-25:checked~.cards #song-23,
+#item-26:checked~.cards #song-24,
+#item-27:checked~.cards #song-25,
+#item-28:checked~.cards #song-26,
+#item-29:checked~.cards #song-27,
+#item-30:checked~.cards #song-28 {
+    transform: translatex(-80%) scale(.6);
+    opacity: .1;
+    z-index: -1;
+}
+
+
+#item-1:checked~.cards #song-2,
+#item-2:checked~.cards #song-3,
+#item-3:checked~.cards #song-4,
+#item-4:checked~.cards #song-5,
+#item-5:checked~.cards #song-6,
+#item-6:checked~.cards #song-7,
+#item-7:checked~.cards #song-8,
+#item-8:checked~.cards #song-9,
+#item-9:checked~.cards #song-10,
+#item-10:checked~.cards #song-11,
+#item-11:checked~.cards #song-12,
+#item-12:checked~.cards #song-13,
+#item-13:checked~.cards #song-14,
+#item-14:checked~.cards #song-15,
+#item-15:checked~.cards #song-16,
+#item-16:checked~.cards #song-17,
+#item-17:checked~.cards #song-18,
+#item-18:checked~.cards #song-19,
+#item-19:checked~.cards #song-20,
+#item-20:checked~.cards #song-21,
+#item-21:checked~.cards #song-22,
+#item-22:checked~.cards #song-23,
+#item-23:checked~.cards #song-24,
+#item-24:checked~.cards #song-25,
+#item-25:checked~.cards #song-26,
+#item-26:checked~.cards #song-27,
+#item-27:checked~.cards #song-28,
+#item-28:checked~.cards #song-29,
+#item-29:checked~.cards #song-30,
+#item-30:checked~.cards #song-1 {
+    transform: translatex(40%) scale(.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+
+#item-1:checked~.cards #song-3,
+#item-2:checked~.cards #song-4,
+#item-3:checked~.cards #song-5,
+#item-4:checked~.cards #song-6,
+#item-5:checked~.cards #song-7,
+#item-6:checked~.cards #song-8,
+#item-7:checked~.cards #song-9,
+#item-8:checked~.cards #song-10,
+#item-9:checked~.cards #song-11,
+#item-10:checked~.cards #song-12,
+#item-11:checked~.cards #song-13,
+#item-12:checked~.cards #song-14,
+#item-13:checked~.cards #song-15,
+#item-14:checked~.cards #song-16,
+#item-15:checked~.cards #song-17,
+#item-16:checked~.cards #song-18,
+#item-17:checked~.cards #song-19,
+#item-18:checked~.cards #song-20,
+#item-19:checked~.cards #song-21,
+#item-20:checked~.cards #song-22,
+#item-21:checked~.cards #song-23,
+#item-22:checked~.cards #song-24,
+#item-23:checked~.cards #song-25,
+#item-24:checked~.cards #song-26,
+#item-25:checked~.cards #song-27,
+#item-26:checked~.cards #song-28,
+#item-27:checked~.cards #song-29,
+#item-28:checked~.cards #song-30,
+#item-29:checked~.cards #song-1,
+#item-30:checked~.cards #song-2 {
+    transform: translatex(80%) scale(.6);
+    opacity: .1;
+    z-index: -1;
+}
+
+
+#item-1:checked~.cards #song-1,
+#item-2:checked~.cards #song-2,
+#item-3:checked~.cards #song-3,
+#item-4:checked~.cards #song-4,
+#item-5:checked~.cards #song-5,
+#item-6:checked~.cards #song-6,
+#item-7:checked~.cards #song-7,
+#item-8:checked~.cards #song-8,
+#item-9:checked~.cards #song-9,
+#item-10:checked~.cards #song-10,
+#item-11:checked~.cards #song-11,
+#item-12:checked~.cards #song-12,
+#item-13:checked~.cards #song-13,
+#item-14:checked~.cards #song-14,
+#item-15:checked~.cards #song-15,
+#item-16:checked~.cards #song-16,
+#item-17:checked~.cards #song-17,
+#item-18:checked~.cards #song-18,
+#item-19:checked~.cards #song-19,
+#item-20:checked~.cards #song-20,
+#item-21:checked~.cards #song-21,
+#item-22:checked~.cards #song-22,
+#item-23:checked~.cards #song-23,
+#item-24:checked~.cards #song-24,
+#item-25:checked~.cards #song-25,
+#item-26:checked~.cards #song-26,
+#item-27:checked~.cards #song-27,
+#item-28:checked~.cards #song-28,
+#item-29:checked~.cards #song-29,
+#item-30:checked~.cards #song-30 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+.player {
+    background-color: #FFFAC2;
+    min-width: 500px;
+    min-height: 250px;
+    padding: 10px 10px;
+    margin-top: 5px;
+    font-family: Marvel;
+    border: 3px solid black;
+    box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.3), 0 6px 200px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px #E8222B,
+        10px 10px 0px 3px black;
+}
+
+.upper-part {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    /* border: solid 1px black; */
+    overflow: hidden;
+}
+
+
+.song-info {
+    width: calc(100% - 32px);
+    display: block;
+}
+
+.song-info .title {
+    color: #251F21;
+    font-size: 20px;
+    font-weight: 1200;
+    line-height: 50px;
+}
+
+.sub-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.subtitle,
+.other,
+.time {
+    font-size: 16px;
+    line-height: 14px;
+    color: #251F21;
+    font-weight: 1200;
+    cursor: pointer;
+}
+
+.other,
+.time {
+    margin-left: auto;
+}
+
+.info-area {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    transition: transform .4s ease-in;
+}
+
+#item-1:checked~.player #test {
+    transform: translateY(0);
+}
+
+#item-2:checked~.player #test {
+    transform: translateY(-80px);
+}
+
+#item-3:checked~.player #test {
+    transform: translateY(-160px);
+}
+
+#item-4:checked~.player #test {
+    transform: translateY(-240px);
+}
+
+#item-5:checked~.player #test {
+    transform: translateY(-320px);
+}
+
+#item-6:checked~.player #test {
+    transform: translateY(-400px);
+}
+
+#item-7:checked~.player #test {
+    transform: translateY(-480px);
+}
+
+#item-8:checked~.player #test {
+    transform: translateY(-560px);
+}
+
+#item-9:checked~.player #test {
+    transform: translateY(-640px);
+}
+
+#item-10:checked~.player #test {
+    transform: translateY(-720px);
+}
+
+#item-11:checked~.player #test {
+    transform: translateY(-800px);
+}
+
+#item-12:checked~.player #test {
+    transform: translateY(-880px);
+}
+
+#item-13:checked~.player #test {
+    transform: translateY(-960px);
+}
+
+#item-14:checked~.player #test {
+    transform: translateY(-1040px);
+}
+
+#item-15:checked~.player #test {
+    transform: translateY(-1120px);
+}
+
+#item-16:checked~.player #test {
+    transform: translateY(-1200px);
+}
+
+#item-17:checked~.player #test {
+    transform: translateY(-1280px);
+}
+
+#item-18:checked~.player #test {
+    transform: translateY(-1360px);
+}
+
+#item-19:checked~.player #test {
+    transform: translateY(-1440px);
+}
+
+#item-20:checked~.player #test {
+    transform: translateY(-1520px);
+}
+
+#item-21:checked~.player #test {
+    transform: translateY(-1600px);
+}
+
+#item-22:checked~.player #test {
+    transform: translateY(-1680px);
+}
+
+#item-23:checked~.player #test {
+    transform: translateY(-1760px);
+}
+
+#item-24:checked~.player #test {
+    transform: translateY(-1840px);
+}
+
+#item-25:checked~.player #test {
+    transform: translateY(-1920px);
+}
+
+#item-26:checked~.player #test {
+    transform: translateY(-2000px);
+}
+
+#item-27:checked~.player #test {
+    transform: translateY(-2080px);
+}
+
+#item-28:checked~.player #test {
+    transform: translateY(-2160px);
+}
+
+#item-29:checked~.player #test {
+    transform: translateY(-2240px);
+}
+
+#item-30:checked~.player #test {
+    transform: translateY(-2320px);
+}
+
+
+#item-1:checked~.cards #song-28,
+#item-1:checked~.cards #song-27,
+#item-1:checked~.cards #song-26,
+#item-1:checked~.cards #song-25,
+#item-1:checked~.cards #song-24,
+#item-1:checked~.cards #song-23,
+#item-1:checked~.cards #song-22,
+#item-1:checked~.cards #song-21,
+#item-1:checked~.cards #song-20,
+#item-1:checked~.cards #song-19,
+#item-1:checked~.cards #song-18,
+#item-1:checked~.cards #song-17,
+#item-1:checked~.cards #song-16,
+#item-1:checked~.cards #song-15,
+#item-1:checked~.cards #song-14,
+#item-1:checked~.cards #song-13,
+#item-1:checked~.cards #song-12,
+#item-1:checked~.cards #song-11,
+#item-1:checked~.cards #song-10,
+#item-1:checked~.cards #song-9,
+#item-1:checked~.cards #song-8,
+#item-1:checked~.cards #song-7,
+#item-1:checked~.cards #song-6,
+#item-1:checked~.cards #song-5,
+#item-1:checked~.cards #song-4,
+#item-2:checked~.cards #song-29,
+#item-2:checked~.cards #song-28,
+#item-2:checked~.cards #song-27,
+#item-2:checked~.cards #song-26,
+#item-2:checked~.cards #song-25,
+#item-2:checked~.cards #song-24,
+#item-2:checked~.cards #song-23,
+#item-2:checked~.cards #song-22,
+#item-2:checked~.cards #song-21,
+#item-2:checked~.cards #song-20,
+#item-2:checked~.cards #song-19,
+#item-2:checked~.cards #song-18,
+#item-2:checked~.cards #song-17,
+#item-2:checked~.cards #song-16,
+#item-2:checked~.cards #song-15,
+#item-2:checked~.cards #song-14,
+#item-2:checked~.cards #song-13,
+#item-2:checked~.cards #song-12,
+#item-2:checked~.cards #song-11,
+#item-2:checked~.cards #song-10,
+#item-2:checked~.cards #song-9,
+#item-2:checked~.cards #song-8,
+#item-2:checked~.cards #song-7,
+#item-2:checked~.cards #song-6,
+#item-2:checked~.cards #song-5,
+#item-3:checked~.cards #song-30,
+#item-3:checked~.cards #song-29,
+#item-3:checked~.cards #song-28,
+#item-3:checked~.cards #song-27,
+#item-3:checked~.cards #song-26,
+#item-3:checked~.cards #song-25,
+#item-3:checked~.cards #song-24,
+#item-3:checked~.cards #song-23,
+#item-3:checked~.cards #song-22,
+#item-3:checked~.cards #song-21,
+#item-3:checked~.cards #song-20,
+#item-3:checked~.cards #song-19,
+#item-3:checked~.cards #song-18,
+#item-3:checked~.cards #song-17,
+#item-3:checked~.cards #song-16,
+#item-3:checked~.cards #song-15,
+#item-3:checked~.cards #song-14,
+#item-3:checked~.cards #song-13,
+#item-3:checked~.cards #song-12,
+#item-3:checked~.cards #song-11,
+#item-3:checked~.cards #song-10,
+#item-3:checked~.cards #song-9,
+#item-3:checked~.cards #song-8,
+#item-3:checked~.cards #song-7,
+#item-3:checked~.cards #song-6,
+#item-4:checked~.cards #song-1,
+#item-4:checked~.cards #song-30,
+#item-4:checked~.cards #song-29,
+#item-4:checked~.cards #song-28,
+#item-4:checked~.cards #song-27,
+#item-4:checked~.cards #song-26,
+#item-4:checked~.cards #song-25,
+#item-4:checked~.cards #song-24,
+#item-4:checked~.cards #song-23,
+#item-4:checked~.cards #song-22,
+#item-4:checked~.cards #song-21,
+#item-4:checked~.cards #song-20,
+#item-4:checked~.cards #song-19,
+#item-4:checked~.cards #song-18,
+#item-4:checked~.cards #song-17,
+#item-4:checked~.cards #song-16,
+#item-4:checked~.cards #song-15,
+#item-4:checked~.cards #song-14,
+#item-4:checked~.cards #song-13,
+#item-4:checked~.cards #song-12,
+#item-4:checked~.cards #song-11,
+#item-4:checked~.cards #song-10,
+#item-4:checked~.cards #song-9,
+#item-4:checked~.cards #song-8,
+#item-4:checked~.cards #song-7,
+#item-5:checked~.cards #song-2,
+#item-5:checked~.cards #song-1,
+#item-5:checked~.cards #song-30,
+#item-5:checked~.cards #song-29,
+#item-5:checked~.cards #song-28,
+#item-5:checked~.cards #song-27,
+#item-5:checked~.cards #song-26,
+#item-5:checked~.cards #song-25,
+#item-5:checked~.cards #song-24,
+#item-5:checked~.cards #song-23,
+#item-5:checked~.cards #song-22,
+#item-5:checked~.cards #song-21,
+#item-5:checked~.cards #song-20,
+#item-5:checked~.cards #song-19,
+#item-5:checked~.cards #song-18,
+#item-5:checked~.cards #song-17,
+#item-5:checked~.cards #song-16,
+#item-5:checked~.cards #song-15,
+#item-5:checked~.cards #song-14,
+#item-5:checked~.cards #song-13,
+#item-5:checked~.cards #song-12,
+#item-5:checked~.cards #song-11,
+#item-5:checked~.cards #song-10,
+#item-5:checked~.cards #song-9,
+#item-5:checked~.cards #song-8,
+#item-6:checked~.cards #song-3,
+#item-6:checked~.cards #song-2,
+#item-6:checked~.cards #song-1,
+#item-6:checked~.cards #song-30,
+#item-6:checked~.cards #song-29,
+#item-6:checked~.cards #song-28,
+#item-6:checked~.cards #song-27,
+#item-6:checked~.cards #song-26,
+#item-6:checked~.cards #song-25,
+#item-6:checked~.cards #song-24,
+#item-6:checked~.cards #song-23,
+#item-6:checked~.cards #song-22,
+#item-6:checked~.cards #song-21,
+#item-6:checked~.cards #song-20,
+#item-6:checked~.cards #song-19,
+#item-6:checked~.cards #song-18,
+#item-6:checked~.cards #song-17,
+#item-6:checked~.cards #song-16,
+#item-6:checked~.cards #song-15,
+#item-6:checked~.cards #song-14,
+#item-6:checked~.cards #song-13,
+#item-6:checked~.cards #song-12,
+#item-6:checked~.cards #song-11,
+#item-6:checked~.cards #song-10,
+#item-6:checked~.cards #song-9,
+#item-7:checked~.cards #song-4,
+#item-7:checked~.cards #song-3,
+#item-7:checked~.cards #song-2,
+#item-7:checked~.cards #song-1,
+#item-7:checked~.cards #song-30,
+#item-7:checked~.cards #song-29,
+#item-7:checked~.cards #song-28,
+#item-7:checked~.cards #song-27,
+#item-7:checked~.cards #song-26,
+#item-7:checked~.cards #song-25,
+#item-7:checked~.cards #song-24,
+#item-7:checked~.cards #song-23,
+#item-7:checked~.cards #song-22,
+#item-7:checked~.cards #song-21,
+#item-7:checked~.cards #song-20,
+#item-7:checked~.cards #song-19,
+#item-7:checked~.cards #song-18,
+#item-7:checked~.cards #song-17,
+#item-7:checked~.cards #song-16,
+#item-7:checked~.cards #song-15,
+#item-7:checked~.cards #song-14,
+#item-7:checked~.cards #song-13,
+#item-7:checked~.cards #song-12,
+#item-7:checked~.cards #song-11,
+#item-7:checked~.cards #song-10,
+#item-8:checked~.cards #song-5,
+#item-8:checked~.cards #song-4,
+#item-8:checked~.cards #song-3,
+#item-8:checked~.cards #song-2,
+#item-8:checked~.cards #song-1,
+#item-8:checked~.cards #song-30,
+#item-8:checked~.cards #song-29,
+#item-8:checked~.cards #song-28,
+#item-8:checked~.cards #song-27,
+#item-8:checked~.cards #song-26,
+#item-8:checked~.cards #song-25,
+#item-8:checked~.cards #song-24,
+#item-8:checked~.cards #song-23,
+#item-8:checked~.cards #song-22,
+#item-8:checked~.cards #song-21,
+#item-8:checked~.cards #song-20,
+#item-8:checked~.cards #song-19,
+#item-8:checked~.cards #song-18,
+#item-8:checked~.cards #song-17,
+#item-8:checked~.cards #song-16,
+#item-8:checked~.cards #song-15,
+#item-8:checked~.cards #song-14,
+#item-8:checked~.cards #song-13,
+#item-8:checked~.cards #song-12,
+#item-8:checked~.cards #song-11,
+#item-9:checked~.cards #song-6,
+#item-9:checked~.cards #song-5,
+#item-9:checked~.cards #song-4,
+#item-9:checked~.cards #song-3,
+#item-9:checked~.cards #song-2,
+#item-9:checked~.cards #song-1,
+#item-9:checked~.cards #song-30,
+#item-9:checked~.cards #song-29,
+#item-9:checked~.cards #song-28,
+#item-9:checked~.cards #song-27,
+#item-9:checked~.cards #song-26,
+#item-9:checked~.cards #song-25,
+#item-9:checked~.cards #song-24,
+#item-9:checked~.cards #song-23,
+#item-9:checked~.cards #song-22,
+#item-9:checked~.cards #song-21,
+#item-9:checked~.cards #song-20,
+#item-9:checked~.cards #song-19,
+#item-9:checked~.cards #song-18,
+#item-9:checked~.cards #song-17,
+#item-9:checked~.cards #song-16,
+#item-9:checked~.cards #song-15,
+#item-9:checked~.cards #song-14,
+#item-9:checked~.cards #song-13,
+#item-9:checked~.cards #song-12,
+#item-10:checked~.cards #song-7,
+#item-10:checked~.cards #song-6,
+#item-10:checked~.cards #song-5,
+#item-10:checked~.cards #song-4,
+#item-10:checked~.cards #song-3,
+#item-10:checked~.cards #song-2,
+#item-10:checked~.cards #song-1,
+#item-10:checked~.cards #song-30,
+#item-10:checked~.cards #song-29,
+#item-10:checked~.cards #song-28,
+#item-10:checked~.cards #song-27,
+#item-10:checked~.cards #song-26,
+#item-10:checked~.cards #song-25,
+#item-10:checked~.cards #song-24,
+#item-10:checked~.cards #song-23,
+#item-10:checked~.cards #song-22,
+#item-10:checked~.cards #song-21,
+#item-10:checked~.cards #song-20,
+#item-10:checked~.cards #song-19,
+#item-10:checked~.cards #song-18,
+#item-10:checked~.cards #song-17,
+#item-10:checked~.cards #song-16,
+#item-10:checked~.cards #song-15,
+#item-10:checked~.cards #song-14,
+#item-10:checked~.cards #song-13,
+#item-11:checked~.cards #song-8,
+#item-11:checked~.cards #song-7,
+#item-11:checked~.cards #song-6,
+#item-11:checked~.cards #song-5,
+#item-11:checked~.cards #song-4,
+#item-11:checked~.cards #song-3,
+#item-11:checked~.cards #song-2,
+#item-11:checked~.cards #song-1,
+#item-11:checked~.cards #song-30,
+#item-11:checked~.cards #song-29,
+#item-11:checked~.cards #song-28,
+#item-11:checked~.cards #song-27,
+#item-11:checked~.cards #song-26,
+#item-11:checked~.cards #song-25,
+#item-11:checked~.cards #song-24,
+#item-11:checked~.cards #song-23,
+#item-11:checked~.cards #song-22,
+#item-11:checked~.cards #song-21,
+#item-11:checked~.cards #song-20,
+#item-11:checked~.cards #song-19,
+#item-11:checked~.cards #song-18,
+#item-11:checked~.cards #song-17,
+#item-11:checked~.cards #song-16,
+#item-11:checked~.cards #song-15,
+#item-11:checked~.cards #song-14,
+#item-12:checked~.cards #song-9,
+#item-12:checked~.cards #song-8,
+#item-12:checked~.cards #song-7,
+#item-12:checked~.cards #song-6,
+#item-12:checked~.cards #song-5,
+#item-12:checked~.cards #song-4,
+#item-12:checked~.cards #song-3,
+#item-12:checked~.cards #song-2,
+#item-12:checked~.cards #song-1,
+#item-12:checked~.cards #song-30,
+#item-12:checked~.cards #song-29,
+#item-12:checked~.cards #song-28,
+#item-12:checked~.cards #song-27,
+#item-12:checked~.cards #song-26,
+#item-12:checked~.cards #song-25,
+#item-12:checked~.cards #song-24,
+#item-12:checked~.cards #song-23,
+#item-12:checked~.cards #song-22,
+#item-12:checked~.cards #song-21,
+#item-12:checked~.cards #song-20,
+#item-12:checked~.cards #song-19,
+#item-12:checked~.cards #song-18,
+#item-12:checked~.cards #song-17,
+#item-12:checked~.cards #song-16,
+#item-12:checked~.cards #song-15,
+#item-13:checked~.cards #song-10,
+#item-13:checked~.cards #song-9,
+#item-13:checked~.cards #song-8,
+#item-13:checked~.cards #song-7,
+#item-13:checked~.cards #song-6,
+#item-13:checked~.cards #song-5,
+#item-13:checked~.cards #song-4,
+#item-13:checked~.cards #song-3,
+#item-13:checked~.cards #song-2,
+#item-13:checked~.cards #song-1,
+#item-13:checked~.cards #song-30,
+#item-13:checked~.cards #song-29,
+#item-13:checked~.cards #song-28,
+#item-13:checked~.cards #song-27,
+#item-13:checked~.cards #song-26,
+#item-13:checked~.cards #song-25,
+#item-13:checked~.cards #song-24,
+#item-13:checked~.cards #song-23,
+#item-13:checked~.cards #song-22,
+#item-13:checked~.cards #song-21,
+#item-13:checked~.cards #song-20,
+#item-13:checked~.cards #song-19,
+#item-13:checked~.cards #song-18,
+#item-13:checked~.cards #song-17,
+#item-13:checked~.cards #song-16,
+#item-14:checked~.cards #song-11,
+#item-14:checked~.cards #song-10,
+#item-14:checked~.cards #song-9,
+#item-14:checked~.cards #song-8,
+#item-14:checked~.cards #song-7,
+#item-14:checked~.cards #song-6,
+#item-14:checked~.cards #song-5,
+#item-14:checked~.cards #song-4,
+#item-14:checked~.cards #song-3,
+#item-14:checked~.cards #song-2,
+#item-14:checked~.cards #song-1,
+#item-14:checked~.cards #song-30,
+#item-14:checked~.cards #song-29,
+#item-14:checked~.cards #song-28,
+#item-14:checked~.cards #song-27,
+#item-14:checked~.cards #song-26,
+#item-14:checked~.cards #song-25,
+#item-14:checked~.cards #song-24,
+#item-14:checked~.cards #song-23,
+#item-14:checked~.cards #song-22,
+#item-14:checked~.cards #song-21,
+#item-14:checked~.cards #song-20,
+#item-14:checked~.cards #song-19,
+#item-14:checked~.cards #song-18,
+#item-14:checked~.cards #song-17,
+#item-15:checked~.cards #song-12,
+#item-15:checked~.cards #song-11,
+#item-15:checked~.cards #song-10,
+#item-15:checked~.cards #song-9,
+#item-15:checked~.cards #song-8,
+#item-15:checked~.cards #song-7,
+#item-15:checked~.cards #song-6,
+#item-15:checked~.cards #song-5,
+#item-15:checked~.cards #song-4,
+#item-15:checked~.cards #song-3,
+#item-15:checked~.cards #song-2,
+#item-15:checked~.cards #song-1,
+#item-15:checked~.cards #song-30,
+#item-15:checked~.cards #song-29,
+#item-15:checked~.cards #song-28,
+#item-15:checked~.cards #song-27,
+#item-15:checked~.cards #song-26,
+#item-15:checked~.cards #song-25,
+#item-15:checked~.cards #song-24,
+#item-15:checked~.cards #song-23,
+#item-15:checked~.cards #song-22,
+#item-15:checked~.cards #song-21,
+#item-15:checked~.cards #song-20,
+#item-15:checked~.cards #song-19,
+#item-15:checked~.cards #song-18,
+#item-16:checked~.cards #song-13,
+#item-16:checked~.cards #song-12,
+#item-16:checked~.cards #song-11,
+#item-16:checked~.cards #song-10,
+#item-16:checked~.cards #song-9,
+#item-16:checked~.cards #song-8,
+#item-16:checked~.cards #song-7,
+#item-16:checked~.cards #song-6,
+#item-16:checked~.cards #song-5,
+#item-16:checked~.cards #song-4,
+#item-16:checked~.cards #song-3,
+#item-16:checked~.cards #song-2,
+#item-16:checked~.cards #song-1,
+#item-16:checked~.cards #song-30,
+#item-16:checked~.cards #song-29,
+#item-16:checked~.cards #song-28,
+#item-16:checked~.cards #song-27,
+#item-16:checked~.cards #song-26,
+#item-16:checked~.cards #song-25,
+#item-16:checked~.cards #song-24,
+#item-16:checked~.cards #song-23,
+#item-16:checked~.cards #song-22,
+#item-16:checked~.cards #song-21,
+#item-16:checked~.cards #song-20,
+#item-16:checked~.cards #song-19,
+#item-17:checked~.cards #song-14,
+#item-17:checked~.cards #song-13,
+#item-17:checked~.cards #song-12,
+#item-17:checked~.cards #song-11,
+#item-17:checked~.cards #song-10,
+#item-17:checked~.cards #song-9,
+#item-17:checked~.cards #song-8,
+#item-17:checked~.cards #song-7,
+#item-17:checked~.cards #song-6,
+#item-17:checked~.cards #song-5,
+#item-17:checked~.cards #song-4,
+#item-17:checked~.cards #song-3,
+#item-17:checked~.cards #song-2,
+#item-17:checked~.cards #song-1,
+#item-17:checked~.cards #song-30,
+#item-17:checked~.cards #song-29,
+#item-17:checked~.cards #song-28,
+#item-17:checked~.cards #song-27,
+#item-17:checked~.cards #song-26,
+#item-17:checked~.cards #song-25,
+#item-17:checked~.cards #song-24,
+#item-17:checked~.cards #song-23,
+#item-17:checked~.cards #song-22,
+#item-17:checked~.cards #song-21,
+#item-17:checked~.cards #song-20,
+#item-18:checked~.cards #song-15,
+#item-18:checked~.cards #song-14,
+#item-18:checked~.cards #song-13,
+#item-18:checked~.cards #song-12,
+#item-18:checked~.cards #song-11,
+#item-18:checked~.cards #song-10,
+#item-18:checked~.cards #song-9,
+#item-18:checked~.cards #song-8,
+#item-18:checked~.cards #song-7,
+#item-18:checked~.cards #song-6,
+#item-18:checked~.cards #song-5,
+#item-18:checked~.cards #song-4,
+#item-18:checked~.cards #song-3,
+#item-18:checked~.cards #song-2,
+#item-18:checked~.cards #song-1,
+#item-18:checked~.cards #song-30,
+#item-18:checked~.cards #song-29,
+#item-18:checked~.cards #song-28,
+#item-18:checked~.cards #song-27,
+#item-18:checked~.cards #song-26,
+#item-18:checked~.cards #song-25,
+#item-18:checked~.cards #song-24,
+#item-18:checked~.cards #song-23,
+#item-18:checked~.cards #song-22,
+#item-18:checked~.cards #song-21,
+#item-19:checked~.cards #song-16,
+#item-19:checked~.cards #song-15,
+#item-19:checked~.cards #song-14,
+#item-19:checked~.cards #song-13,
+#item-19:checked~.cards #song-12,
+#item-19:checked~.cards #song-11,
+#item-19:checked~.cards #song-10,
+#item-19:checked~.cards #song-9,
+#item-19:checked~.cards #song-8,
+#item-19:checked~.cards #song-7,
+#item-19:checked~.cards #song-6,
+#item-19:checked~.cards #song-5,
+#item-19:checked~.cards #song-4,
+#item-19:checked~.cards #song-3,
+#item-19:checked~.cards #song-2,
+#item-19:checked~.cards #song-1,
+#item-19:checked~.cards #song-30,
+#item-19:checked~.cards #song-29,
+#item-19:checked~.cards #song-28,
+#item-19:checked~.cards #song-27,
+#item-19:checked~.cards #song-26,
+#item-19:checked~.cards #song-25,
+#item-19:checked~.cards #song-24,
+#item-19:checked~.cards #song-23,
+#item-19:checked~.cards #song-22,
+#item-20:checked~.cards #song-17,
+#item-20:checked~.cards #song-16,
+#item-20:checked~.cards #song-15,
+#item-20:checked~.cards #song-14,
+#item-20:checked~.cards #song-13,
+#item-20:checked~.cards #song-12,
+#item-20:checked~.cards #song-11,
+#item-20:checked~.cards #song-10,
+#item-20:checked~.cards #song-9,
+#item-20:checked~.cards #song-8,
+#item-20:checked~.cards #song-7,
+#item-20:checked~.cards #song-6,
+#item-20:checked~.cards #song-5,
+#item-20:checked~.cards #song-4,
+#item-20:checked~.cards #song-3,
+#item-20:checked~.cards #song-2,
+#item-20:checked~.cards #song-1,
+#item-20:checked~.cards #song-30,
+#item-20:checked~.cards #song-29,
+#item-20:checked~.cards #song-28,
+#item-20:checked~.cards #song-27,
+#item-20:checked~.cards #song-26,
+#item-20:checked~.cards #song-25,
+#item-20:checked~.cards #song-24,
+#item-20:checked~.cards #song-23,
+#item-21:checked~.cards #song-18,
+#item-21:checked~.cards #song-17,
+#item-21:checked~.cards #song-16,
+#item-21:checked~.cards #song-15,
+#item-21:checked~.cards #song-14,
+#item-21:checked~.cards #song-13,
+#item-21:checked~.cards #song-12,
+#item-21:checked~.cards #song-11,
+#item-21:checked~.cards #song-10,
+#item-21:checked~.cards #song-9,
+#item-21:checked~.cards #song-8,
+#item-21:checked~.cards #song-7,
+#item-21:checked~.cards #song-6,
+#item-21:checked~.cards #song-5,
+#item-21:checked~.cards #song-4,
+#item-21:checked~.cards #song-3,
+#item-21:checked~.cards #song-2,
+#item-21:checked~.cards #song-1,
+#item-21:checked~.cards #song-30,
+#item-21:checked~.cards #song-29,
+#item-21:checked~.cards #song-28,
+#item-21:checked~.cards #song-27,
+#item-21:checked~.cards #song-26,
+#item-21:checked~.cards #song-25,
+#item-21:checked~.cards #song-24,
+#item-22:checked~.cards #song-19,
+#item-22:checked~.cards #song-18,
+#item-22:checked~.cards #song-17,
+#item-22:checked~.cards #song-16,
+#item-22:checked~.cards #song-15,
+#item-22:checked~.cards #song-14,
+#item-22:checked~.cards #song-13,
+#item-22:checked~.cards #song-12,
+#item-22:checked~.cards #song-11,
+#item-22:checked~.cards #song-10,
+#item-22:checked~.cards #song-9,
+#item-22:checked~.cards #song-8,
+#item-22:checked~.cards #song-7,
+#item-22:checked~.cards #song-6,
+#item-22:checked~.cards #song-5,
+#item-22:checked~.cards #song-4,
+#item-22:checked~.cards #song-3,
+#item-22:checked~.cards #song-2,
+#item-22:checked~.cards #song-1,
+#item-22:checked~.cards #song-30,
+#item-22:checked~.cards #song-29,
+#item-22:checked~.cards #song-28,
+#item-22:checked~.cards #song-27,
+#item-22:checked~.cards #song-26,
+#item-22:checked~.cards #song-25,
+#item-23:checked~.cards #song-20,
+#item-23:checked~.cards #song-19,
+#item-23:checked~.cards #song-18,
+#item-23:checked~.cards #song-17,
+#item-23:checked~.cards #song-16,
+#item-23:checked~.cards #song-15,
+#item-23:checked~.cards #song-14,
+#item-23:checked~.cards #song-13,
+#item-23:checked~.cards #song-12,
+#item-23:checked~.cards #song-11,
+#item-23:checked~.cards #song-10,
+#item-23:checked~.cards #song-9,
+#item-23:checked~.cards #song-8,
+#item-23:checked~.cards #song-7,
+#item-23:checked~.cards #song-6,
+#item-23:checked~.cards #song-5,
+#item-23:checked~.cards #song-4,
+#item-23:checked~.cards #song-3,
+#item-23:checked~.cards #song-2,
+#item-23:checked~.cards #song-1,
+#item-23:checked~.cards #song-30,
+#item-23:checked~.cards #song-29,
+#item-23:checked~.cards #song-28,
+#item-23:checked~.cards #song-27,
+#item-23:checked~.cards #song-26,
+#item-24:checked~.cards #song-21,
+#item-24:checked~.cards #song-20,
+#item-24:checked~.cards #song-19,
+#item-24:checked~.cards #song-18,
+#item-24:checked~.cards #song-17,
+#item-24:checked~.cards #song-16,
+#item-24:checked~.cards #song-15,
+#item-24:checked~.cards #song-14,
+#item-24:checked~.cards #song-13,
+#item-24:checked~.cards #song-12,
+#item-24:checked~.cards #song-11,
+#item-24:checked~.cards #song-10,
+#item-24:checked~.cards #song-9,
+#item-24:checked~.cards #song-8,
+#item-24:checked~.cards #song-7,
+#item-24:checked~.cards #song-6,
+#item-24:checked~.cards #song-5,
+#item-24:checked~.cards #song-4,
+#item-24:checked~.cards #song-3,
+#item-24:checked~.cards #song-2,
+#item-24:checked~.cards #song-1,
+#item-24:checked~.cards #song-30,
+#item-24:checked~.cards #song-29,
+#item-24:checked~.cards #song-28,
+#item-24:checked~.cards #song-27,
+#item-25:checked~.cards #song-22,
+#item-25:checked~.cards #song-21,
+#item-25:checked~.cards #song-20,
+#item-25:checked~.cards #song-19,
+#item-25:checked~.cards #song-18,
+#item-25:checked~.cards #song-17,
+#item-25:checked~.cards #song-16,
+#item-25:checked~.cards #song-15,
+#item-25:checked~.cards #song-14,
+#item-25:checked~.cards #song-13,
+#item-25:checked~.cards #song-12,
+#item-25:checked~.cards #song-11,
+#item-25:checked~.cards #song-10,
+#item-25:checked~.cards #song-9,
+#item-25:checked~.cards #song-8,
+#item-25:checked~.cards #song-7,
+#item-25:checked~.cards #song-6,
+#item-25:checked~.cards #song-5,
+#item-25:checked~.cards #song-4,
+#item-25:checked~.cards #song-3,
+#item-25:checked~.cards #song-2,
+#item-25:checked~.cards #song-1,
+#item-25:checked~.cards #song-30,
+#item-25:checked~.cards #song-29,
+#item-25:checked~.cards #song-28,
+#item-26:checked~.cards #song-23,
+#item-26:checked~.cards #song-22,
+#item-26:checked~.cards #song-21,
+#item-26:checked~.cards #song-20,
+#item-26:checked~.cards #song-19,
+#item-26:checked~.cards #song-18,
+#item-26:checked~.cards #song-17,
+#item-26:checked~.cards #song-16,
+#item-26:checked~.cards #song-15,
+#item-26:checked~.cards #song-14,
+#item-26:checked~.cards #song-13,
+#item-26:checked~.cards #song-12,
+#item-26:checked~.cards #song-11,
+#item-26:checked~.cards #song-10,
+#item-26:checked~.cards #song-9,
+#item-26:checked~.cards #song-8,
+#item-26:checked~.cards #song-7,
+#item-26:checked~.cards #song-6,
+#item-26:checked~.cards #song-5,
+#item-26:checked~.cards #song-4,
+#item-26:checked~.cards #song-3,
+#item-26:checked~.cards #song-2,
+#item-26:checked~.cards #song-1,
+#item-26:checked~.cards #song-30,
+#item-26:checked~.cards #song-29,
+#item-27:checked~.cards #song-24,
+#item-27:checked~.cards #song-23,
+#item-27:checked~.cards #song-22,
+#item-27:checked~.cards #song-21,
+#item-27:checked~.cards #song-20,
+#item-27:checked~.cards #song-19,
+#item-27:checked~.cards #song-18,
+#item-27:checked~.cards #song-17,
+#item-27:checked~.cards #song-16,
+#item-27:checked~.cards #song-15,
+#item-27:checked~.cards #song-14,
+#item-27:checked~.cards #song-13,
+#item-27:checked~.cards #song-12,
+#item-27:checked~.cards #song-11,
+#item-27:checked~.cards #song-10,
+#item-27:checked~.cards #song-9,
+#item-27:checked~.cards #song-8,
+#item-27:checked~.cards #song-7,
+#item-27:checked~.cards #song-6,
+#item-27:checked~.cards #song-5,
+#item-27:checked~.cards #song-4,
+#item-27:checked~.cards #song-3,
+#item-27:checked~.cards #song-2,
+#item-27:checked~.cards #song-1,
+#item-27:checked~.cards #song-30,
+#item-28:checked~.cards #song-25,
+#item-28:checked~.cards #song-24,
+#item-28:checked~.cards #song-23,
+#item-28:checked~.cards #song-22,
+#item-28:checked~.cards #song-21,
+#item-28:checked~.cards #song-20,
+#item-28:checked~.cards #song-19,
+#item-28:checked~.cards #song-18,
+#item-28:checked~.cards #song-17,
+#item-28:checked~.cards #song-16,
+#item-28:checked~.cards #song-15,
+#item-28:checked~.cards #song-14,
+#item-28:checked~.cards #song-13,
+#item-28:checked~.cards #song-12,
+#item-28:checked~.cards #song-11,
+#item-28:checked~.cards #song-10,
+#item-28:checked~.cards #song-9,
+#item-28:checked~.cards #song-8,
+#item-28:checked~.cards #song-7,
+#item-28:checked~.cards #song-6,
+#item-28:checked~.cards #song-5,
+#item-28:checked~.cards #song-4,
+#item-28:checked~.cards #song-3,
+#item-28:checked~.cards #song-2,
+#item-28:checked~.cards #song-1,
+#item-29:checked~.cards #song-26,
+#item-29:checked~.cards #song-25,
+#item-29:checked~.cards #song-24,
+#item-29:checked~.cards #song-23,
+#item-29:checked~.cards #song-22,
+#item-29:checked~.cards #song-21,
+#item-29:checked~.cards #song-20,
+#item-29:checked~.cards #song-19,
+#item-29:checked~.cards #song-18,
+#item-29:checked~.cards #song-17,
+#item-29:checked~.cards #song-16,
+#item-29:checked~.cards #song-15,
+#item-29:checked~.cards #song-14,
+#item-29:checked~.cards #song-13,
+#item-29:checked~.cards #song-12,
+#item-29:checked~.cards #song-11,
+#item-29:checked~.cards #song-10,
+#item-29:checked~.cards #song-9,
+#item-29:checked~.cards #song-8,
+#item-29:checked~.cards #song-7,
+#item-29:checked~.cards #song-6,
+#item-29:checked~.cards #song-5,
+#item-29:checked~.cards #song-4,
+#item-29:checked~.cards #song-3,
+#item-29:checked~.cards #song-2,
+#item-30:checked~.cards #song-27,
+#item-30:checked~.cards #song-26,
+#item-30:checked~.cards #song-25,
+#item-30:checked~.cards #song-24,
+#item-30:checked~.cards #song-23,
+#item-30:checked~.cards #song-22,
+#item-30:checked~.cards #song-21,
+#item-30:checked~.cards #song-20,
+#item-30:checked~.cards #song-19,
+#item-30:checked~.cards #song-18,
+#item-30:checked~.cards #song-17,
+#item-30:checked~.cards #song-16,
+#item-30:checked~.cards #song-15,
+#item-30:checked~.cards #song-14,
+#item-30:checked~.cards #song-13,
+#item-30:checked~.cards #song-12,
+#item-30:checked~.cards #song-11,
+#item-30:checked~.cards #song-10,
+#item-30:checked~.cards #song-9,
+#item-30:checked~.cards #song-8,
+#item-30:checked~.cards #song-7,
+#item-30:checked~.cards #song-6,
+#item-30:checked~.cards #song-5,
+#item-30:checked~.cards #song-4,
+#item-30:checked~.cards #song-3 {
+        display: none;
+    }

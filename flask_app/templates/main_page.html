@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Main Movie Page</title>
+
+</head>
+
+<body id="mainpage1" onload="typeOut()">
+    <div class="container1">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-1" checked>
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-2">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-3">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-4">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-5">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-6">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-7">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-8">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-9">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-10">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-11">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-12">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-13">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-14">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-15">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-16">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-17">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-18">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-19">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-20">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-21">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-22">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-23">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-24">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-25">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-26">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-27">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-28">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-29">
+        <input onclick="clearInfoDiv()" type="radio" name="slider" id="item-30">
+        <div class="cards">
+            <label class="card" for="item-1" id="song-1">
+                <img class="img" src="{{ url_for('static', filename='covers/iron-man.jpg') }}" alt="Iron Man">
+            </label>
+            <label class="card" for="item-2" id="song-2">
+                <img class="img" src="{{ url_for('static', filename='covers/hulk.jpg') }}" alt="The Incredible Hulk">
+            </label>
+            <label class="card" for="item-3" id="song-3">
+                <img class="img" src="{{ url_for('static', filename='covers/iron-man-2.jpg') }}" alt="Iron Man 2">
+            </label>
+            <label class="card" for="item-4" id="song-4">
+                <img class="img" src="{{ url_for('static', filename='covers/thor.jpg') }}" alt="Thor">
+            </label>
+            <label class="card" for="item-5" id="song-5">
+                <img class="img" src="{{ url_for('static', filename='covers/captain-america-the-first-avenger.jpg') }}"
+                    alt="Captain America: The First Avenger">
+            </label>
+            <label class="card" for="item-6" id="song-6">
+                <img class="img" src="{{ url_for('static', filename='covers/avengers.jpg') }}" alt="The Avengers">
+            </label>
+            <label class="card" for="item-7" id="song-7">
+                <img class="img" src="{{ url_for('static', filename='covers/iron-man-3.jpg') }}" alt="Iron Man 3">
+            </label>
+            <label class="card" for="item-8" id="song-8">
+                <img class="img" src="{{ url_for('static', filename='covers/thor-dark-world.jpg') }}" alt="Thor: The Dark World">
+            </label>
+            <label class="card" for="item-9" id="song-9">
+                <img class="img" src="{{ url_for('static', filename='covers/captain-america-the-winter-soldier.jpg') }}"
+                    alt="Captain America: The Winter Soldier">
+            </label>
+            <label class="card" for="item-10" id="song-10">
+                <img class="img" src="{{ url_for('static', filename='covers/guardians-of-the-galaxy-vol-1.jpg') }}"
+                    alt="Guardians of the Galaxy">
+            </label>
+            <label class="card" for="item-11" id="song-11">
+                <img class="img" src="{{ url_for('static', filename='covers/avengers-age-of-ultron.jpg') }}"
+                    alt="Avengers: Age of Ultron">
+            </label>
+            <label class="card" for="item-12" id="song-12">
+                <img class="img" src="{{ url_for('static', filename='covers/ant-man.jpg') }}" alt="Ant-Man">
+            </label>
+            <label class="card" for="item-13" id="song-13">
+                <img class="img" src="{{ url_for('static', filename='covers/captain-america-civil-war.jpg') }}"
+                    alt="Captain America: Civil War">
+            </label>
+            <label class="card" for="item-14" id="song-14">
+                <img class="img" src="{{ url_for('static', filename='covers/doctor-strange.jpg') }}" alt="Doctor Strange">
+            </label>
+            <label class="card" for="item-15" id="song-15">
+                <img class="img" src="{{ url_for('static', filename='covers/guardians-of-the-galaxy-vol-2.jpg') }}"
+                    alt="Guardians of the Galaxy Vol. 2">
+            </label>
+            <label class="card" for="item-16" id="song-16">
+                <img class="img" src="{{ url_for('static', filename='covers/spider-man-homecoming.jpg') }}"
+                    alt="Spider-Man: Homecoming">
+            </label>
+            <label class="card" for="item-17" id="song-17">
+                <img class="img" src="{{ url_for('static', filename='covers/thor-ragnarok.jpg') }}" alt="Thor: Ragnarok">
+            </label>
+            <label class="card" for="item-18" id="song-18">
+                <img class="img" src="{{ url_for('static', filename='covers/black-panther.jpg') }}" alt="Black Panther">
+            </label>
+            <label class="card" for="item-19" id="song-19">
+                <img class="img" src="{{ url_for('static', filename='covers/avengers-infinity-war.jpg') }}"
+                    alt="Avengers: Infinity War">
+            </label>
+            <label class="card" for="item-20" id="song-20">
+                <img class="img" src="{{ url_for('static', filename='covers/ant-man-and-the-wasp.jpg') }}"
+                    alt="Ant-Man and The Wasp">
+            </label>
+            <label class="card" for="item-21" id="song-21">
+                <img class="img" src="{{ url_for('static', filename='covers/captain-marvel.jpg') }}" alt="Captain Marvel">
+            </label>
+            <label class="card" for="item-22" id="song-22">
+                <img class="img" src="{{ url_for('static', filename='covers/avengers-endgame.jpg') }}" alt="Avengers: Endgame">
+            </label>
+            <label class="card" for="item-23" id="song-23">
+                <img class="img" src="{{ url_for('static', filename='covers/spider-man-far-from-home.jpg') }}"
+                    alt="Spider-Man: Far From Home">
+            </label>
+            <label class="card" for="item-24" id="song-24">
+                <img class="img" src="{{ url_for('static', filename='covers/black-widow.jpg') }}" alt="Black Widow">
+            </label>
+            <label class="card" for="item-25" id="song-25">
+                <img class="img" src="{{ url_for('static', filename='covers/shang-chi-and-the-legend-of-the-ten-rings.jpg') }}"
+                    alt="Shang-Chi and The Legend of The Ten Rings">
+            </label>
+            <label class="card" for="item-26" id="song-26">
+                <img class="img" src="{{ url_for('static', filename='covers/the-eternals.jpg') }}" alt="Eternals">
+            </label>
+            <label class="card" for="item-27" id="song-27">
+                <img class="img" src="{{ url_for('static', filename='covers/spider-man-no-way-home.jpg') }}"
+                    alt="Spider-Man: No Way Home">
+            </label>
+            <label class="card" for="item-28" id="song-28">
+                <img class="img" src="{{ url_for('static', filename='covers/doctor-strange-in-the-multiverse-of-madness.jpg') }}"
+                    alt="Doctor Strange in the Multiverse of Madness">
+            </label>
+            <label class="card" for="item-29" id="song-29">
+                <img class="img" src="{{ url_for('static', filename='covers/thor-love-and-thunder.jpg') }}"
+                    alt="Thor: Love and Thunder">
+            </label>
+            <label class="card" for="item-30" id="song-30">
+                <img class="img" src="{{ url_for('static', filename='covers/black-panther-2.jpg') }}"
+                    alt="Black Panther: Wakanda Forever">
+            </label>
+        </div>
+
+
+        <div class="player">
+            <div class="upper-part">
+                <div class="info-area" id="test">
+                    <label class="song-info" for="item-1" id="1">
+                        <div class="title">Iron Man</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="1" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="1" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="1" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">The Incredible Hulk</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="2" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="2" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="2" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Iron Man 2</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="3" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="3" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="3" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Thor</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="4" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="4" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="45" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Captain America: The First Avenger</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="5" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="5" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="5" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">The Avengers</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="6" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="6" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="6" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Iron Man 3</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="7" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="7" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="7" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Thor: The Dark World</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="8" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="8" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="8" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Captain America: The Winter Soldier</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="9" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="9" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="9" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Guardians of the Galaxy</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="10" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="10" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="10" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Avengers: Age of Ultron</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="11" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="11" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="11" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Ant-Man</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="12" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="12" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="12" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Captain America: Civil War</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="13" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="13" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="13" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Doctor Strange</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="14" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="14" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="14" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Guardians of the Galaxy Vol. 2</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="15" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="15" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="15" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Spider-Man: Homecoming</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="16" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="16" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="16" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Thor: Ragnarok</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="17" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="17" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="17" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Black Panther</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="18" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="18" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="18" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Avengers: Infinity War</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="19" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="19" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="19" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Ant-Man and The Wasp</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="20" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="20" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="20" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Captain Marvel</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="21" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="21" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="21" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Avengers: Endgame</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="22" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="22" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="22" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Spider-Man: Far From Home</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="23" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="23" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="23" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Black Widow</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="24" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="24" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="24" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Shang-Chi and The Legend of The Ten Rings</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="25" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="25" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="25" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Eternals</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="26" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="26" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="26" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Spider-Man: No Way Home</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="27" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="27" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="27" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Doctor Strange in the Multiverse of Madness</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="28" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="28" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="28" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Thor: Love and Thunder</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="29" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="29" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="29" class="other"></p>
+                        </div>
+                    </label>
+                    <label class="song-info">
+                        <div class="title">Black Panther: Wakanda Forever</div>
+                        <div id="infochoice" class="sub-line">
+                            <p onclick="getMoviePlot(this); typeOut2()" id="30" class="subtitle">Plot Overview</p>
+                            <p onclick="getMovieInfo(this); typeOut3()" id="30" class="time">Movie Details</p>
+                            <p onclick="getRelatedMovies(this)" id="30" class="other"></p>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div id="infoResults">
+            </div>
+        </div>
+    </div>
+    {% if logged_user %}
+    <div id="jarvisblock">
+        <p id="target"></p>
+        <p id="target2"></p>
+        <p id="target3"></p>
+    </div>
+    {% endif %}
+
+
+
+
+
+
+    {% if not logged_user %}
+    <a class="position-absolute bottom-0 start-0" href="/newuser">
+        <img class="logimg" src="{{ url_for('static', filename='covers/Avengers.gif') }}" alt="LoginAvenger">
+    </a>
+    {% else %}
+    <a class="position-absolute bottom-0 start-0" href="/logout">
+        <img class="logimg rounded-circle" src="{{ url_for('static', filename='covers/Sheild_Hydra.gif') }}" alt="shield_is_compromised">
+    </a>
+    {% endif %}
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
