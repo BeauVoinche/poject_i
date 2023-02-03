@@ -8,7 +8,7 @@ target2 = document.getElementById("target2");
 target3 = document.getElementById("target3");
 i = 0;
 j =0;
-k=0;
+k = 0;
 
 
 function clearInfoDiv() {
