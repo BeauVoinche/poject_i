@@ -1,7 +1,7 @@
 MCU_URL = "https://mcuapi.herokuapp.com/api/v1/movies/"
 resultsDiv = document.getElementById("infoResults")
-phrase = "Hello, this is Jarvis, I am here to help you with your journey through the Marvel Cinematic Universe. Please cycle through the options here, and click on the tabs below it to get information about the film.";
-phrase2 = "Ah yes, this will give give you a shortened explanation of the film selected.";
+phrase = "Hello, I am J.A.R.V.I.S, and I am here to be your guide through the Marvel Cinematic Universe. Please cycle through the options shown here, and click on the tabs below them to get information about said film.";
+phrase2 = "Ah yes, this will give you a shortened explanation of the film selected.";
 phrase3 = "Excellent choice, this gives you very interesting information about the film selected.";
 target = document.getElementById("target");
 target2 = document.getElementById("target2");
